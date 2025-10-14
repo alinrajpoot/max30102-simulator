@@ -42,7 +42,7 @@ python src/simulator/server.py
 python examples/client_example.py
 ```
 
-### 📡 TCP Protocol
+## 📡 TCP Protocol
 
 The simulator communicates via TCP on port 8888 (configurable). Clients can send configuration commands and receive real-time data streams.
 
@@ -71,7 +71,7 @@ The simulator communicates via TCP on port 8888 (configurable). Clients can send
 }
 ```
 
-### 🏗️ Project Structure
+## 🏗️ Project Structure
 
 ```
 max30102-simulator/
@@ -84,7 +84,7 @@ max30102-simulator/
 └── docs/                   # Documentation
 ```
 
-### 🔧 Configuration
+## 🔧 Configuration
 
 Modify `config/default.yaml` to adjust:
 
@@ -93,15 +93,15 @@ Modify `config/default.yaml` to adjust:
 - Default physiological parameters
 - Scenario definitions
 
-### 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes. For major changes, please open an issue first to discuss what you would like to change.
 
-### 📄 License
+## 📄 License
 
 This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE) file for details.
 
-### 🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 - Based on MAX30102 specifications from Maxim Integrated
 - Physiological models inspired by clinical research papers
