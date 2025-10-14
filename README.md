@@ -27,7 +27,7 @@ A high-fidelity TCP-based simulator for the MAX30102 pulse oximeter and heart-ra
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/max30102-simulator.git
+git clone https://github.com/alinrajpoot/max30102-simulator.git
 cd max30102-simulator
 pip install -r requirements.txt
 ```

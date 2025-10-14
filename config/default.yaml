@@ -1,0 +1,51 @@
+# MAX30102 Simulator - Default Configuration
+
+# TCP Server Configuration
+tcp_server:
+  host: "localhost"
+  port: 8888
+  max_clients: 5
+  buffer_size: 4096
+  timeout: 30
+
+# MAX30102 Sensor Parameters
+sensor:
+  sample_rate: 1000
+  adc_range: 16384
+  led_current_red: 7.0
+  led_current_ir: 7.0
+  pulse_width: 411
+  sample_average: 4
+  fifo_rollover_enable: true
+  mode: 0x03 # SpO2 mode
+
+# Default Physiological Parameters
+physiological:
+  age: 30
+  gender: "male"
+  weight_kg: 70
+  height_cm: 175
+  activity: "resting"
+  condition: "normal"
+  fitness_level: "average"
+
+# Waveform Generation Parameters
+waveform:
+  base_heart_rate: 72
+  base_spo2: 98.0
+  pulse_amplitude_red: 10000
+  pulse_amplitude_ir: 9500
+  baseline_red: 50000
+  baseline_ir: 48000
+  noise_level: 0.05
+  respiratory_rate: 16
+  motion_artifact_probability: 0.1
+  motion_artifact_duration: 0.5
+
+# Simulation Control
+simulation:
+  real_time: true
+  time_scale: 1.0
+  data_streaming: true
+  send_raw_data: true
+  send_processed_data: true

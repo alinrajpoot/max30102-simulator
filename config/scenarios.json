@@ -1,0 +1,101 @@
+{
+  "scenarios": {
+    "normal_resting": {
+      "description": "Normal resting state",
+      "physiological": {
+        "heart_rate_bpm": 72,
+        "spo2_percent": 98,
+        "respiratory_rate": 16,
+        "pulse_amplitude_red": 10000,
+        "pulse_amplitude_ir": 9500,
+        "noise_level": 0.02,
+        "heart_rate_variability": "normal"
+      }
+    },
+    "heart_attack": {
+      "description": "Myocardial infarction simulation",
+      "physiological": {
+        "heart_rate_bpm": 45,
+        "spo2_percent": 85,
+        "respiratory_rate": 8,
+        "pulse_amplitude_red": 5000,
+        "pulse_amplitude_ir": 4500,
+        "noise_level": 0.1,
+        "pulse_rhythm": "irregular",
+        "symptoms": ["chest_pain", "sweating", "shortness_of_breath"]
+      }
+    },
+    "extreme_anxiety": {
+      "description": "Panic attack simulation",
+      "physiological": {
+        "heart_rate_bpm": 120,
+        "spo2_percent": 95,
+        "respiratory_rate": 25,
+        "pulse_amplitude_red": 12000,
+        "pulse_amplitude_ir": 11500,
+        "noise_level": 0.15,
+        "heart_rate_variability": "low"
+      }
+    },
+    "running": {
+      "description": "Moderate exercise simulation",
+      "physiological": {
+        "heart_rate_bpm": 140,
+        "spo2_percent": 97,
+        "respiratory_rate": 32,
+        "pulse_amplitude_red": 15000,
+        "pulse_amplitude_ir": 14000,
+        "noise_level": 0.3,
+        "motion_artifact_probability": 0.8
+      }
+    },
+    "sleeping": {
+      "description": "Deep sleep simulation",
+      "physiological": {
+        "heart_rate_bpm": 55,
+        "spo2_percent": 96,
+        "respiratory_rate": 10,
+        "pulse_amplitude_red": 7000,
+        "pulse_amplitude_ir": 6500,
+        "noise_level": 0.01,
+        "heart_rate_variability": "high"
+      }
+    },
+    "sex_intercourse": {
+      "description": "Sexual activity simulation",
+      "physiological": {
+        "heart_rate_bpm": 130,
+        "spo2_percent": 97,
+        "respiratory_rate": 28,
+        "pulse_amplitude_red": 14000,
+        "pulse_amplitude_ir": 13500,
+        "noise_level": 0.2,
+        "motion_artifact_probability": 0.6
+      }
+    },
+    "shock": {
+      "description": "Medical shock simulation",
+      "physiological": {
+        "heart_rate_bpm": 140,
+        "spo2_percent": 82,
+        "respiratory_rate": 35,
+        "pulse_amplitude_red": 3000,
+        "pulse_amplitude_ir": 2800,
+        "noise_level": 0.25,
+        "pulse_quality": "weak"
+      }
+    },
+    "fear": {
+      "description": "Acute fear response simulation",
+      "physiological": {
+        "heart_rate_bpm": 110,
+        "spo2_percent": 96,
+        "respiratory_rate": 22,
+        "pulse_amplitude_red": 11000,
+        "pulse_amplitude_ir": 10500,
+        "noise_level": 0.12,
+        "heart_rate_variability": "very_low"
+      }
+    }
+  }
+}
