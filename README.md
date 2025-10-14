@@ -84,15 +84,6 @@ max30102-simulator/
 └── docs/                   # Documentation
 ```
 
-## 🔧 Configuration
-
-Modify `config/default.yaml` to adjust:
-
-- Sensor parameters (sample rate, LED pulse width)
-- TCP server settings (port, host)
-- Default physiological parameters
-- Scenario definitions
-
 ## 📚 Documentation
 
 ### Getting Started
