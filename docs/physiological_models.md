@@ -116,7 +116,7 @@ activity_effects = {
         'amplitude_factor': 0.7,
         'noise_factor': 0.1
     },
-    'sex_intercourse': {
+    'sex_time': {
         'heart_rate_factor': 1.8,
         'respiratory_factor': 1.8,
         'amplitude_factor': 1.4,

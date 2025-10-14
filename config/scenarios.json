@@ -61,7 +61,7 @@
         "heart_rate_variability": "high"
       }
     },
-    "sex_intercourse": {
+    "sex_time": {
       "description": "Sexual activity simulation",
       "physiological": {
         "heart_rate_bpm": 130,

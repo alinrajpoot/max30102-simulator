@@ -76,7 +76,7 @@ Scenarios are pre-defined sets of physiological parameters that simulate specifi
 - High heart rate scenarios
 - Motion artifact testing
 
-#### sex_intercourse
+#### sex_time
 
 **Description**: Sexual activity simulation
 **Typical Parameters**:

@@ -167,7 +167,7 @@ def main():
     parser.add_argument('--scenario', help='Set scenario on startup')
     parser.add_argument('--age', type=int, help='Set age parameter')
     parser.add_argument('--gender', choices=['male', 'female'], help='Set gender parameter')
-    parser.add_argument('--activity', choices=['resting', 'walking', 'running', 'sleeping', 'sex_intercourse'], 
+    parser.add_argument('--activity', choices=['resting', 'walking', 'running', 'sleeping', 'sex_time'], 
                        help='Set activity parameter')
     
     args = parser.parse_args()

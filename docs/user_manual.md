@@ -117,7 +117,7 @@ Each data sample has the following structure:
 - `walking`: Light walking (HR: 90-110 bpm)
 - `running`: Moderate running (HR: 130-160 bpm)
 - `sleeping`: Deep sleep state (HR: 50-70 bpm)
-- `sex_intercourse`: Sexual activity (HR: 120-140 bpm)
+- `sex_time`: Sexual activity (HR: 120-140 bpm)
 
 ## Medical Scenarios
 

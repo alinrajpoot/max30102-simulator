@@ -25,7 +25,7 @@ def run_scenario_demo():
             ("walking", 15, "Walking activity"),
             ("running", 15, "Running activity"),
             ("sleeping", 10, "Sleeping state"),
-            ("sex_intercourse", 10, "Sexual activity"),
+            ("sex_time", 10, "Sexual activity"),
             ("extreme_anxiety", 12, "Panic attack simulation"),
             ("heart_attack", 12, "Heart attack simulation"),
             ("shock", 10, "Medical shock simulation"),
